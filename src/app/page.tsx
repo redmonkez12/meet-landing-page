@@ -11,9 +11,9 @@ export default function Home() {
                        alt={"Logo"}/>
             </div>
 
-            <div className="flex w-full h-[9.563rem] md:h-[18.938rem] gap-4">
+            <div className="xl:hidden flex w-full h-[9.563rem] md:h-[18.938rem] gap-4">
                 <div
-                    className={"xl:hidden image relative bg-[url('/tablet/image-hero.png')] bg-[length:25.875rem] md:bg-contain bg-center bg-no-repeat"}/>
+                    className={"image relative bg-[url('/tablet/image-hero.png')] bg-[length:25.875rem] md:bg-contain bg-center bg-no-repeat"}/>
             </div>
 
             <div className={"flex md:h-[22.375rem] relative w-full justify-center"}>
